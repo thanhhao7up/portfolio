@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- author -->
+    <meta name="author" content="Team 3 21F_CST8117 WDIA">
+    <meta name="email" content="ymliu97@gmail.com">
+    <!-- stylesheet -->
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <!-- scripts -->
+    <script src="scripts/main.js" defer></script>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Stoke&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rasa&display=swap" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="icon"
+        href="https://img.icons8.com/external-dreamstale-lineal-dreamstale/32/000000/external-plate-kitchen-bar-dreamstale-lineal-dreamstale.png">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/a9c8119266.js" crossorigin="anonymous"></script>
+    <!-- title -->
+    <title>Peter Logan's Steak House</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header id="header">
+        <div class="logo">
+            <h2>peter logan's</h2>
+        </div>
+
+        <nav>
+            <ul class="navigation-menu">
+                <li>
+                    <a href="index.html"></a>
+                    <!-- highlight navigation menu option -->
+                    <div class="active-menu-indicator"></div>
+                </li>
+                <li>
+                    <a href="about.html"></a>
+                </li>
+                <li>
+                    <a href="reservation.html"></a>
+                </li>
+                <li>
+                    <a href="menu.html"></a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="responsive-menu-open">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <div id="overlay-menu-close">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <div class="features">
+            <i class="fas fa-moon"></i>
+            <!-- <i class="fas fa-language"></i> -->
+            <select class="select-language">
+                <option value="en">
+                    EN
+                </option>
+                <option value="fr">
+                    FR
+                </option>
+            </select>
+        </div>
+    </header>
+
+    <!-- responsive header -->
+    <div class="responsive-menu-overlay">
+        <ul class="overlay-content navigation-menu">
+            <li>
+                <a href="index.html"></a>
+            </li>
+            <li>
+                <a href="about.html"></a>
+            </li>
+            <li>
+                <a href="reservation.html"></a>
+            </li>
+            <li>
+                <a href="menu.html"></a>
+            </li>
+            <li>
+                <a href="contact.html"></a>
+            </li>
+            <div class="features">
+                <i class="fas fa-moon"></i>
+
+                <!-- <i class="fas fa-language"></i> -->
+                <select class="select-language-responsive">
+                    <option value="en">
+                        EN
+                    </option>
+                    <option value="fr">
+                        FR
+                    </option>
+                </select>
+            </div>
+        </ul>
+    </div>
+
+    <main>
+        <section class="main-content">
+            <div>
+                <h1>peter logan's</h1>
+                <h1>steakhouse</h1>
+            </div>
+            <img src="images/home-content.jpeg" alt="banner">
+        </section>
+
+        <section class="main-content-textinfo">
+            <div class="main-content-text">
+                <div class="textinfo-heading">hours</div>
+                <div>Tuesday - Sunday</div>
+                <div>11AM - 10PM</div>
+            </div>
+            <div class="main-content-text">
+                <div class="textinfo-heading">address</div>
+                <div>70 Grand Ave</div>
+                <div>Brooklyn, New York</div>
+            </div>
+            <div class="main-content-text">
+                <div class="textinfo-heading">contact</div>
+                <div>917-111-2222</div>
+                <div>info@peterlogan.com</div>
+            </div>
+        </section>
+
+        <!-- css grid for main content at landing page -->
+        <div class="home-wrapper">
+            <div class="grid-item" id="grid-item-1">
+                <a href="reservation.html" class="button-1">Reservation</a>
+                <img src="images/home-rsvn.jpg" alt="Reservation">
+            </div>
+            <div class="grid-item" id="grid-item-2">
+                <a href="menu.html" class="button-1">Menu</a>
+                <img src="images/home-menu.jpg" alt="Menu">
+            </div>
+            <div class="grid-item" id="grid-item-3">
+                <a href="about.html" class="button-1">About</a>
+                <img src="images/home-about.jpg" alt="About">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="social-media">
+            <a href="https://www.instagram.com/explore/tags/steakhouse/">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="https://www.yelp.ca/c/toronto/steak">
+                <i class="fab fa-yelp"></i>
+            </a>
+
+            <a href="https://twitter.com/SteakHouse9_">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+
+        <div class="address">
+            <div>
+                <i class="fas fa-phone-alt"></i>
+                <a href="tel:917-111-2222">917-111-2222</a>
+                <span class="gap">•</span>
+            </div>
+            <div>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:info@gmail.com">
+                    info@peterlogan.com
+                </a>
+                <span class="gap">•</span>
+            </div>
+            <div>
+                <i class="fas fa-location-arrow"></i>
+                <span class="footer-address-line">70 Grand Ave, Brooklyn, New York</span>
+            </div>
+        </div>
+        <hr>
+        </div>
+
+        <div id="address">
+            <span class="footer-company">&COPY PETER LOGAN'S STEAK HOUSE</span> | <span class="footer-copyright">DESIGN
+                BY YML</span>
+        </div>
+    </footer>
+</body>
+
+</html>
